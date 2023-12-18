@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:recipesapp/components/my_bottom_navigation_bar.dart';
-import 'package:recipesapp/components/pageview_recipe_list.dart';
+import 'package:recipesapp/components/pageview_creator_list.dart';
 import 'package:recipesapp/components/popular_recipe_list.dart';
 
 class HomeSreen extends StatefulWidget {
@@ -32,7 +32,7 @@ class _HomeSreenState extends State<HomeSreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       const Text(
-                        'Halo.. Paul',
+                        'Hello, Paul',
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.w800,
@@ -114,7 +114,7 @@ class _HomeSreenState extends State<HomeSreen> {
                 ],
               ),
             ),
-            const PopularRecipeList(),
+            const PopularCreatorList(),
           ],
         ),
       ),
