@@ -32,7 +32,7 @@ class _HomeSreenState extends State<HomeSreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       const Text(
-                        'Hello, Paul',
+                        'Hello, Cak',
                         style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.w800,
