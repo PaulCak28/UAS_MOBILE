@@ -9,7 +9,7 @@
 
 # Cooking_app
 
-Tugas Akhir Semester Pemrogramman Mobile
+Tugas Akhir Semester Pemrogramman Mobile Paulus Simon Halomoan Sigalingging (211402128)
 
 Add this code by terminal before run the app :
 - flutter pub get
@@ -33,3 +33,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## SCREENSHOT APP
+![alt text](https://github.com/PaulCak28/UAS_MOBILE/blob/main/assets/images/Screenshot/SS-1.png?raw=true)
+![alt text](https://github.com/PaulCak28/UAS_MOBILE/blob/main/assets/images/Screenshot/SS-2.png?raw=true)
