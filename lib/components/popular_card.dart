@@ -53,27 +53,32 @@ class PopularCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     CircleAvatar(
-                      radius: 12,
-                      child: Text(
-                        recipe!.recipeMaker[0],
-                        style: TextStyle(color: recipe!.startColor),
-                      ),
+                      radius: 19,
                       backgroundColor: recipe!.endColor,
+                      child: ClipOval(
+                        child: Image(
+                          image: AssetImage(
+                              'assets/images/${recipe!.makerImage}'),
+                          fit: BoxFit.cover,
+                          width: 40, // Adjust the width and height as needed
+                          height: 40,
+                        ),
+                      ),
                     ),
                     Text(
                       recipe!.recipeMaker,
                       overflow: TextOverflow.ellipsis,
                       maxLines: 2,
                       style: const TextStyle(
-                        fontSize: 18,
+                        fontSize: 16,
                         fontWeight: FontWeight.w600,
                         color: Color.fromARGB(255, 0, 0, 0),
                       ),
                     ),
                     const Text(
-                      'Seafood',
+                      ' ',
                       style: TextStyle(
-                        fontSize: 14,
+                        fontSize: 10,
                         // fontWeight: FontWeight.w600,
                         color: Color.fromARGB(255, 117, 117, 117),
                       ),
@@ -82,12 +87,17 @@ class PopularCard extends StatelessWidget {
                       children: [
                         CircleAvatar(
                           radius: 12,
-                          child: SvgPicture.asset(
-                              'assets/svg/icon-share-grey.svg'),
                           backgroundColor: Colors.transparent,
+                          child: SvgPicture.asset(
+                            'assets/svg/icons-book.svg',
+                            colorFilter: ColorFilter.mode(
+                              Color.fromARGB(255, 117, 117, 117),
+                              BlendMode.srcIn,
+                            ),
+                          ),
                         ),
-                        const Text(
-                          '30-35 minute',
+                        Text(
+                          recipe!.makerBook,
                           style: TextStyle(
                             fontSize: 14,
                             // fontWeight: FontWeight.w600,
@@ -100,12 +110,17 @@ class PopularCard extends StatelessWidget {
                       children: [
                         CircleAvatar(
                           radius: 12,
-                          child: SvgPicture.asset(
-                              'assets/svg/icon-share-grey.svg'),
                           backgroundColor: Colors.transparent,
+                          child: SvgPicture.asset(
+                            'assets/svg/icons-love.svg',
+                            colorFilter: ColorFilter.mode(
+                              Color.fromARGB(255, 117, 117, 117),
+                              BlendMode.srcIn,
+                            ),
+                          ),
                         ),
-                        const Text(
-                          'Medium',
+                        Text(
+                          recipe!.makerLove,
                           style: TextStyle(
                             fontSize: 14,
                             // fontWeight: FontWeight.w600,
@@ -113,7 +128,7 @@ class PopularCard extends StatelessWidget {
                           ),
                         ),
                       ],
-                    ),   
+                    ),
                   ],
                 )),
           ),

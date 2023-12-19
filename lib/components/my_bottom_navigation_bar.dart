@@ -34,32 +34,32 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
         BottomNavigationBarItem(
           icon: _selectedIndex == 1
               ? SvgPicture.asset(
-                  'assets/svg/icon-search-selected.svg',
+                  'assets/svg/icons-search-selected.svg',
                 )
               : SvgPicture.asset(
-                  'assets/svg/icon-search.svg',
+                  'assets/svg/icons-search.svg',
                 ),
           label: 'Search',
         ),
         BottomNavigationBarItem(
           icon: _selectedIndex == 2
               ? SvgPicture.asset(
-                  'assets/svg/icon-notification-selected.svg',
+                  'assets/svg/icons-plus-selected.svg',
                 )
               : SvgPicture.asset(
-                  'assets/svg/icon-notification.svg',
+                  'assets/svg/icons-plus.svg',
                 ),
           label: 'Notification',
         ),
         BottomNavigationBarItem(
           icon: _selectedIndex == 3
               ? SvgPicture.asset(
-                  'assets/svg/icon-settings-selected.svg',
+                  'assets/svg/icons-book-selected.svg',
                 )
               : SvgPicture.asset(
-                  'assets/svg/icon-settings.svg',
+                  'assets/svg/icons-book.svg',
                 ),
-          label: 'Settings',
+          label: 'Recipe',
         ),
       ],
       currentIndex: _selectedIndex,
