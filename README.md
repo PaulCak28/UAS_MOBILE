@@ -35,5 +35,5 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## SCREENSHOT APP
-![alt text](https://github.com/PaulCak28/UAS_MOBILE/blob/main/assets/images/Screenshot/SS-1.png?raw=true)
-![alt text](https://github.com/PaulCak28/UAS_MOBILE/blob/main/assets/images/Screenshot/SS-2.png?raw=true)
+![SS-1](https://github.com/PaulCak28/UAS_MOBILE/blob/main/assets/images/Screenshot/SS-1.png?raw=true)
+![SS-2](https://github.com/PaulCak28/UAS_MOBILE/blob/main/assets/images/Screenshot/SS-2.png?raw=true)
